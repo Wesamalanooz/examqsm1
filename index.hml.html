@@ -5717,7 +5717,7 @@ function renderCard(employee) {
     </div>
     <div>
       ${ employee["التكليف في الدورة الصيفية 2025"] && employee["التكليف في الدورة الصيفية 2025"].toString().includes('تم') 
-        ? `<span class="status ok">مكلف</span>` 
+        ? `<span class="status ok">تم التكليف</span>` 
         : `<span class="status none">غير مكلف</span>` }
     </div>
     <div class="note"><strong>ملاحظات:</strong> ${employee["سبب عدم التكليف"] && employee["سبب عدم التكليف"] !== "-" ? employee["سبب عدم التكليف"] : "لا توجد ملاحظات"}</div>
